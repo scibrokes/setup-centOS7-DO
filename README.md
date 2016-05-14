@@ -2,7 +2,9 @@
 Setup RHEL/centOS 7 Server
 
 # Online Server
-
+  
+  With continue to last [安装 ®StudioとShiny服务器](https://github.com/scibrokes/setup-rstudio-server), here tried to share the database management in this article. You can create your own via [Digital Ocean](https://m.do.co/c/aabb124120d0)...
+  
 ## RHEL/centOS 7
 
 

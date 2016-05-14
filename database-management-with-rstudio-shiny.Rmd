@@ -29,19 +29,24 @@ rm(pkgs)
 op <- options(gvis.plot.tag='chart')
 ```
 
-# 1. Introduction
+# Summary
 
-  - Section [1.1 Digital Ocean and CentOS 7]
-  - Section [1.2 R and ｮStudio]
+  With continue to last [安装 ®StudioとShiny服务器](https://github.com/scibrokes/setup-rstudio-server), here tried to share the database management in this article. You can create your own via [Digital Ocean](https://m.do.co/c/aabb124120d0).
 
-## 1.1 Digital Ocean and CentOS 7
+# 1. Introduction to ｮStudio Server
 
-## 1.2 R and ｮStudio
+  For the Part I about **setup ｮStudio Server** and **shiny**, kindly refer to [安装 ®StudioとShiny服务器](https://github.com/scibrokes/setup-rstudio-server). The English and Japanese version will be prepared during spared time. The article shares below :
+  
+  - Comparison few platform to use programming R and ｮStudio
+  - Create a droplet on [Digital Ocean](https://m.do.co/c/aabb124120d0).
+  - Setup ｮStudio Server and Shiny Server on centOS 7.
+  - Installation GNome Desktop CentOS 7.
+  - User and files authorization management on CentOS 7.
+  - Introduce rmarkdown reports, shiny apps.
 
+# 2. RHEL / CentOS 7
 
-# 2. 
-
-
+  [Linux Packages Search](https://pkgs.org/)
 
 # 3. Shinyapp's Report
 
@@ -124,6 +129,14 @@ Sys.info()
 
 ## 5.4 References
 
-  1. []()
-  2. []()
+###  Reference for industry knowdelege and academic research portion for the paper.
+
+  1) 
+
+###  Reference for technical research on programming and coding portion for the paper.
+  
+  2) [Justin Ellingwood (2013) - *How To Create and Manage Databases in MySQL and MariaDB on a Cloud Server*](https://www.digitalocean.com/community/tutorials/how-to-create-and-manage-databases-in-mysql-and-mariadb-on-a-cloud-server)
+  3) [Etel Sverdlov (2012) - *A Basic MySQL Tutorial*](https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial)
+  4) [Etel Sverdlov (2012) - *How To Create a New User and Grant Permissions in MySQL*](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql)
+  5) 
 

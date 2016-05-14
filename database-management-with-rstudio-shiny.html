@@ -48,11 +48,9 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 
 <div id="TOC">
 <ul>
-<li><a href="#introduction">1. Introduction</a><ul>
-<li><a href="#digital-ocean-and-centos-7">1.1 Digital Ocean and CentOS 7</a></li>
-<li><a href="#r-and-studio">1.2 R and ｮStudio</a></li>
-</ul></li>
-<li><a href="#section">2.</a></li>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#introduction-to-studio-server">1. Introduction to ｮStudio Server</a></li>
+<li><a href="#rhel-centos-7">2. RHEL / CentOS 7</a></li>
 <li><a href="#shinyapps-report">3. Shinyapp’s Report</a><ul>
 <li><a href="#shinyapps-web-base-report">3.1 Shinyapp’s Web-base Report</a></li>
 <li><a href="#setup-shiny-server-and-mysql-server">3.2 Setup Shiny Server and MySQL Server</a></li>
@@ -62,26 +60,33 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <li><a href="#documenting-file-creation">5.1 Documenting File Creation</a></li>
 <li><a href="#versions-log">5.2 Versions’ Log</a></li>
 <li><a href="#speech-and-blooper">5.3 Speech and Blooper</a></li>
-<li><a href="#references">5.4 References</a></li>
+<li><a href="#references">5.4 References</a><ul>
+<li><a href="#reference-for-industry-knowdelege-and-academic-research-portion-for-the-paper.">Reference for industry knowdelege and academic research portion for the paper.</a></li>
+<li><a href="#reference-for-technical-research-on-programming-and-coding-portion-for-the-paper.">Reference for technical research on programming and coding portion for the paper.</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </div>
 
-<div id="introduction" class="section level1">
-<h1>1. Introduction</h1>
+<div id="summary" class="section level1">
+<h1>Summary</h1>
+<p>With continue to last <a href="https://github.com/scibrokes/setup-rstudio-server">安装 ®StudioとShiny服务器</a>, here tried to share the database management in this article. You can create your own via <a href="https://m.do.co/c/aabb124120d0">Digital Ocean</a>.</p>
+</div>
+<div id="introduction-to-studio-server" class="section level1">
+<h1>1. Introduction to ｮStudio Server</h1>
+<p>For the Part I about <strong>setup ｮStudio Server</strong> and <strong>shiny</strong>, kindly refer to <a href="https://github.com/scibrokes/setup-rstudio-server">安装 ®StudioとShiny服务器</a>. The English and Japanese version will be prepared during spared time. The article shares below :</p>
 <ul>
-<li>Section <a href="#digital-ocean-and-centos-7">1.1 Digital Ocean and CentOS 7</a></li>
-<li>Section <a href="#r-and-studio">1.2 R and ｮStudio</a></li>
+<li>Comparison few platform to use programming R and ｮStudio</li>
+<li>Create a droplet on <a href="https://m.do.co/c/aabb124120d0">Digital Ocean</a>.</li>
+<li>Setup ｮStudio Server and Shiny Server on centOS 7.</li>
+<li>Installation GNome Desktop CentOS 7.</li>
+<li>User and files authorization management on CentOS 7.</li>
+<li>Introduce rmarkdown reports, shiny apps.</li>
 </ul>
-<div id="digital-ocean-and-centos-7" class="section level2">
-<h2>1.1 Digital Ocean and CentOS 7</h2>
 </div>
-<div id="r-and-studio" class="section level2">
-<h2>1.2 R and ｮStudio</h2>
-</div>
-</div>
-<div id="section" class="section level1">
-<h1>2.</h1>
+<div id="rhel-centos-7" class="section level1">
+<h1>2. RHEL / CentOS 7</h1>
+<p><a href="https://pkgs.org/">Linux Packages Search</a></p>
 </div>
 <div id="shinyapps-report" class="section level1">
 <h1>3. Shinyapp’s Report</h1>
@@ -129,7 +134,7 @@ $ sudo rm mysql57-community-release-el7-7.noarch.rpm</code></pre>
 <li>GitHub: <a href="https://github.com/scibrokes/setup-centOS7-DO">Source Code</a></li>
 <li>Additional session information:</li>
 </ul>
-<p>[1] “2016-05-14 01:38:52 EDT” setting value<br />
+<p>[1] “2016-05-14 02:02:51 EDT” setting value<br />
  version R version 3.2.3 (2015-12-10) system x86_64, linux-gnu<br />
  ui X11<br />
  language (EN)<br />
@@ -154,12 +159,23 @@ $ sudo rm mysql57-community-release-el7-7.noarch.rpm</code></pre>
 </div>
 <div id="references" class="section level2">
 <h2>5.4 References</h2>
+<div id="reference-for-industry-knowdelege-and-academic-research-portion-for-the-paper." class="section level3">
+<h3>Reference for industry knowdelege and academic research portion for the paper.</h3>
 <ol style="list-style-type: decimal">
-<li><a href></a></li>
-<li><a href></a></li>
+<li></li>
+</ol>
+</div>
+<div id="reference-for-technical-research-on-programming-and-coding-portion-for-the-paper." class="section level3">
+<h3>Reference for technical research on programming and coding portion for the paper.</h3>
+<ol start="2" style="list-style-type: decimal">
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-create-and-manage-databases-in-mysql-and-mariadb-on-a-cloud-server">Justin Ellingwood (2013) - <em>How To Create and Manage Databases in MySQL and MariaDB on a Cloud Server</em></a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial">Etel Sverdlov (2012) - <em>A Basic MySQL Tutorial</em></a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql">Etel Sverdlov (2012) - <em>How To Create a New User and Grant Permissions in MySQL</em></a></li>
+<li></li>
 </ol>
 <div id="refs" class="references">
 
+</div>
 </div>
 </div>
 </div>
