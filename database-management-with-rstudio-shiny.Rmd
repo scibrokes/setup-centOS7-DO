@@ -1,0 +1,129 @@
+---
+title: "![®Studio Shiny](http://i.imgur.com/s9HfhLr.jpg?1)"
+subtitle: "ｮStudio Shiny and Database Management with CentOS 7"
+author: "[®γσ, Eng Lian Hu](http://englianhu.wordpress.com) <img src='figure/ShirotoNorimichi.jpg' width='24'> 白戸則道®"
+date: "`r Sys.Date()`"
+output:
+  tufte::tufte_html:
+    toc: yes
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_book:
+    citation_package: natbib
+    latex_engine: xelatex
+bibliography: skeleton.bib
+link-citations: yes
+---
+
+```{r libs, message=FALSE, warning=FALSE, cache=TRUE, include=FALSE}
+## Setup Options, Loading Required Libraries and Preparing Environment
+## Loading the packages and setting adjustment
+suppressMessages(library('BBmisc'))
+pkgs <- c('lubridate', 'googleVis', 'rCharts', 'htmltools')
+suppressMessages(lib(pkgs))
+rm(pkgs)
+
+## Set the googleVis options first to change the behaviour of plot.gvis, so that only the chart 
+##  component of the HTML file is written into the output file.
+op <- options(gvis.plot.tag='chart')
+```
+
+# 1. Introduction
+
+  - Section [1.1 Digital Ocean and CentOS 7]
+  - Section [1.2 R and ｮStudio]
+
+## 1.1 Digital Ocean and CentOS 7
+
+## 1.2 R and ｮStudio
+
+
+# 2. 
+
+
+
+# 3. Shinyapp's Report
+
+
+## 3.1 Shinyapp's Web-base Report
+
+## 3.2 Setup Shiny Server and MySQL Server
+
+  Kindly refer to my previous project [Setup ®Studio Server](https://github.com/scibrokes/setup-rstudio-server) in order to setup shiny server. Here I am sharing how to setup a MySQL server database on [Digital Ocean](https://m.do.co/c/aabb124120d0). You might feel free to setup yours.
+
+  I tried to `$ sudo yum install -y mysql-server` but doesn't work. Well, firstly you need to browse over <http://dev.mysql.com/downloads/repo/yum/> and get the link of latest version of MySQL server.
+
+```
+$ wgets http://dev.mysql.com/get/mysql57-community-release-el7-7.noarch.rpm
+$ sudo yum install -y mysql57-community-release-el7-7.noarch.rpm
+$ sudo rm mysql57-community-release-el7-7.noarch.rpm
+```
+
+  You might need to grant permission by `$ sudo chmod 777 [your path]` if you faced permission denied issue. Now you need to start MySQL server.
+
+```
+$ sudo 
+```
+
+  You can `$ sudo yum-complete-transaction -y mysql-server` if needed.
+
+draft
+<http://www.cyberciti.biz/faq/how-to-install-mysql-under-rhel/>
+<http://dev.mysql.com/get/mysql57-community-release-el7-7.noarch.rpm>
+<https://www.linode.com/docs/databases/mysql/how-to-install-mysql-on-centos-6>
+
+```{r reset-setting, include = FALSE}
+## Set options back to original options
+options(op)
+```
+
+# 4. Conclusion
+
+  ...
+
+# 5. Appendices
+
+  - Section [5.1 Documenting File Creation]
+  - Section [5.2 Versions' Log]
+  - Section [5.3 Speech and Blooper]
+  - Section [5.4 References]
+
+## 5.1 Documenting File Creation
+
+  It's useful to record some information about how your file was created.
+  
+  - File creation date: 2000-01-01
+  - File latest updated date: `r Sys.Date()`
+  - `r R.version.string`
+  - R version (short form): `r getRversion()`
+  - [**rmarkdown** package]() version: `r packageVersion('rmarkdown')`
+  - [**tufte** package](https://github.com/rstudio/tufte) version: `r packageVersion('tufte')`
+  - [**mosaic** package](https://github.com/ProjectMOSAIC/mosaic) version: `r packageVersion('mosaic')`
+  - File version: 1.0.0
+  - Author Profile: [®γσ, Eng Lian Hu](https://beta.rstudioconnect.com/englianhu/ryo-eng/)
+  - GitHub: [Source Code](https://github.com/scibrokes/setup-centOS7-DO)
+  - Additional session information:
+
+```{r info, echo=FALSE, results='asis'}
+lubridate::now()
+devtools::session_info()$platform
+Sys.info()
+```
+
+## 5.2 Versions' Log
+
+  - *January 01, 1990*: [version: 1.0.0](https://github.com/scibrokes/setup-centOS7-DO)
+
+## 5.3 Speech and Blooper
+
+  I faced below issue during preparation of this assignment.
+  
+  - ...
+  - ...
+
+## 5.4 References
+
+  1. []()
+  2. []()
+
