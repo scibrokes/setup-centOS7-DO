@@ -46,8 +46,10 @@ op <- options(gvis.plot.tag='chart')
 
 # 2. RHEL / CentOS 7
 
-  [Linux Packages Search](https://pkgs.org/)
-  [Setup ConfigServer Security and Firewall (CSF) on CentOS 7](https://www.vultr.com/docs/setup-csf-on-centos-7)
+**Draft**
+  - [Linux Packages Search](https://pkgs.org/)
+  - [Setup ConfigServer Security and Firewall (CSF) on CentOS 7](https://www.vultr.com/docs/setup-csf-on-centos-7)
+  - [Forced Delete and Grant Permission](http://www.linuxquestions.org/questions/linux-newbie-8/force-a-delete-611503/)
 
 # 3. Shinyapp's Report
 
