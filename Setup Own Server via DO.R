@@ -18,6 +18,8 @@ cd ..
 cd ..
 rm master.zip
 
+## --------------------------------
+##安装R语言
 # update indices
 apt update -qq
 
@@ -31,12 +33,27 @@ wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | tee
 
 # add the R 4.0 repo from CRAN -- adjust 'focal' to 'groovy' or 'bionic' as needed
 add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
+apt install -y --no-install-recommends r-base
+
 add-apt-repository ppa:c2d4u.team/c2d4u4.0+
+apt install -y --no-install-recommends r-cran-rstan
+apt install -y --no-install-recommends r-cran-tidyverse
 
 wget -c https://s3.amazonaws.com/rstudio-ide-build/server/bionic/amd64/rstudio-server-2021.09.0-preview%2B341-amd64.deb
-gdebi -y rstudio-server-2021.09.0-preview+341-amd64.deb
+gdebi rstudio-server-2021.09.0-preview+341-amd64.deb
+rm rstudio-server-2021.09.0-preview+341-amd64.deb
 
+## --------------------------------
+## 安装anaconda
+## https://docs.anaconda.com/anaconda/install/linux/
+apt install -y libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
 
+wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+sha256sum Anaconda3-2021.05-Linux-x86_64.sh
+bash Anaconda3-2021.05-Linux-x86_64.sh
+rm Anaconda3-2021.05-Linux-x86_64.sh
+
+## --------------------------------
 ## 新建用户
 adduser englianhu
 passwd  englianhu
