@@ -12,7 +12,8 @@ With continue to last [安装 ®StudioとShiny服务器](https://github.com/scib
 
 ## Kubuntu KDE Plasma on Ubuntu
 
-https://www.jianshu.com/p/5837b4fbec3c
+- https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/
+- https://www.jianshu.com/p/5837b4fbec3c
 
 # Database Management
 
