@@ -1,4 +1,5 @@
-# setup-centOS7-DO
+# Setup Own Server via Digital Ocean
+
 Setup RHEL/centOS 7 Server
 
 # Online Server
@@ -7,7 +8,8 @@ Setup RHEL/centOS 7 Server
   
 ## RHEL/centOS 7
 
-
+## Kubuntu KDE Plasma on Ubuntu
+https://www.jianshu.com/p/5837b4fbec3c
 
 # Database Management
 
