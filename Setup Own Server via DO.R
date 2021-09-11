@@ -2,7 +2,12 @@
 1) Create a droplet
 2) 
 3) 
-apt-get update && sudo apt-get install lsb-core
-lsb_release
-apt install -y nginx
-apt install -y firewalld
+sudo apt-get update && sudo apt-get install lsb-core
+sudo lsb_release
+sudo apt install -y nginx
+sudo apt install -y firewalld
+sudo systemctl enable firewalld
+sudo systemctl start firewall
+sudo firewall-cmd --list-all
+
+
