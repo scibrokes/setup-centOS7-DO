@@ -1,6 +1,7 @@
 
-
 # Setup Own Server via Digital Ocean
+
+[![Jekyll site CI](https://github.com/scibrokes/setup-centOS7-DO/actions/workflows/jekyll.yml/badge.svg)](https://github.com/scibrokes/setup-centOS7-DO/actions/workflows/jekyll.yml) [![R](https://github.com/scibrokes/setup-centOS7-DO/actions/workflows/r.yml/badge.svg)](https://github.com/scibrokes/setup-centOS7-DO/actions/workflows/r.yml)
 
 Setup RHEL/centOS 7 Server
 
