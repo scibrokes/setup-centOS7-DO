@@ -22,7 +22,7 @@ With continue to last [安装 ®StudioとShiny服务器](https://github.com/scib
 - [🐧Linux操作系统必备应用](https://www.jianshu.com/p/5837b4fbec3c)
 
 ### RStudio Desktop Pro / RStudio.Cloud
-他
+
 ...
 ...
 
