@@ -1,0 +1,376 @@
+---
+title: "<img src='figure/deriv.jpg' width='240'>"
+subtitle: "[<span style='color:#DE5D83; background-color:black;'>Psiphon</span> : setting up own server & Linux 🐧 client (with free servers)<span style='color:#4E79A7'>**Review (Part III)**</span>](https://github.com/englianhu/binary.com-interview-question)"
+author: "[®γσ, Lian Hu](https://englianhu.github.io) <img src='figure/ENG.jpg'
+  width='24' align='center' valign='middle'> <img src='figure/quantitative trader 1.jpg'
+  width='17' align='center' valign='middle'>® <img src='figure/K-Media.jpg' width='14'>"
+tags: [计量经济学, 量化圈, 娱乐圈, ®, Python, ®Studio]
+date: "`r lubridate::today('Asia/Tokyo')`"
+output:
+  html_document: 
+    mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    number_sections: yes
+    toc: yes
+    toc_depth: 10
+    toc_float:
+      collapsed: yes
+      smooth_scroll: yes
+    code_folding: hide
+    css: CSSBackgrounds.css
+---
+
+# Setting
+
+## SCSS Setup
+
+<style>
+pre {
+  overflow-x: auto;
+}
+pre code {
+  word-wrap: normal;
+  white-space: pre;
+}
+.table-hover > tbody > tr:hover { 
+  background-color: #8D918D;
+}
+</style>
+
+```{r class.source='bg-success', class.output='bg-primary', message = FALSE, warning = FALSE}
+# install.packages("remotes")
+library('BBmisc', 'rmsfuns')
+#remotes::install_github("rstudio/sass")
+lib('sass')
+```
+
+```{scss class.source='bg-success', class.output='bg-primary'}
+/* https://stackoverflow.com/a/66029010/3806250 */
+h1 { color: #002C54; }
+h2 { color: #2F496E; }
+h3 { color: #375E97; }
+h4 { color: #556DAC; }
+h5 { color: #92AAC7; }
+/* ----------------------------------------------------------------- */
+/* https://gist.github.com/himynameisdave/c7a7ed14500d29e58149#file-broken-gradient-animation-less */
+.hover01 {
+  /* color: #FFD64D; */
+  background: linear-gradient(155deg, #EDAE01 0%, #FFEB94 100%);
+  transition: all 0.45s;
+  &:hover{
+    background: linear-gradient(155deg, #EDAE01 20%, #FFEB94 80%);
+    }
+  }
+.hover02 {
+  color: #FFD64D;
+  background: linear-gradient(155deg, #002C54 0%, #4CB5F5 100%);
+  transition: all 0.45s;
+  &:hover{
+    background: linear-gradient(155deg, #002C54 20%, #4CB5F5 80%);
+    }
+  }
+.hover03 {
+  color: #FFD64D;
+  background: linear-gradient(155deg, #A10115 0%, #FF3C5C 100%);
+  transition: all 0.45s;
+  &:hover{
+    background: linear-gradient(155deg, #A10115 20%, #FF3C5C 80%);
+    }
+  }
+```
+
+```{r global_options, class.source='hover01', class.output='hover02'}
+## https://stackoverflow.com/a/36846793/3806250
+options(width = 999)
+knitr::opts_chunk$set(class.source = 'hover01', class.output = 'hover02', class.error = 'hover03')
+```
+
+<br><br>
+
+## Setup
+
+```{r setup, error=TRUE}
+#suppressPackageStartupMessages(library('BBmisc'))
+#pkgs <- c('knitr', 'kableExtra', 'devtools', 'lubridate', 'data.table', 'tidyquant', 'stringr', 'magrittr', 'tidyverse', 'plyr', 'dplyr', 'broom', 'highcharter', 'formattable', 'DT', 'httr', 'openxlsx')
+#suppressAll(lib(pkgs))
+#funs <- c('')
+#l_ply(funs, function(x) source(paste0('./function/', x)))
+Sys.setenv(TZ='Asia/Tokyo')
+options(warn=-1)
+rm(pkgs)
+```
+
+<br><br>
+
+# Pavel Piatruk' tech & personal blog
+
+## Psiphon: setting up own server & Linux 🐧 client
+
+*Sep 5, 2020*
+>#ubuntu , #psiphon , #proxy
+
+*2 min read*
+
+Psiphon is obfuscated proxy, and its client & server are open-source.
+
+The plan is:
+
+- setting up own Psiphon server
+- setting up Psiphon Client on Linux that connects to your own Psiphon server
+
+### Psiphon Server
+
+Notes:
+
+- consider changing port from 9991 to something cool e.g. 22, 443 etc…
+- when you change server port or server IP, regenerate the token & update the clients.
+```
+mkdir -p /opt/psiphond-server/
+cd /opt/psiphond-server/
+curl https://github.com/Psiphon-Labs/psiphon-tunnel-core-binaries/raw/master/psiphond/psiphond -o psiphond
+chmod 755 psiphond
+./psiphond -ipaddress `curl -4 ifconfig.co -Ss`  -protocol OSSH:9991 generate
+cat server-entry.dat ; echo
+```
+it is the token for clients; save it.
+
+Run manually…
+```
+./psiphond  run
+```
+.. or stop & create Systemd unit:
+```
+vim /etc/systemd/system/psiphond.service
+```
+
+```
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=/opt/psiphond-server/psiphond run
+Type=simple
+WorkingDirectory=/opt/psiphond-server
+
+[Install]
+WantedBy=default.target
+```
+Enable the unit:
+```
+systemctl daemon-reload
+systemct start psiphond.service
+systemct enable psiphond.service
+```
+
+### Psiphon Client
+
+```
+rm -rf ~/psiphon.client.to.own.server
+mkdir -p ~/psiphon.client.to.own.server
+cd ~/psiphon.client.to.own.server
+curl https://github.com/Psiphon-Labs/psiphon-tunnel-core-binaries/raw/master/linux/psiphon-tunnel-core-x86_64 -o psiphon-tunnel-core-x86_64
+chmod 755 psiphon-tunnel-core-x86_64
+vim client.own.conf
+```
+paste text below but replace `__TOKEN__` to the Token from step above.
+```
+{
+    "LocalHttpProxyPort" : 8081,
+    "LocalSocksProxyPort" : 1081,
+    "PropagationChannelId" : "FFFFFFFFFFFFFFFF",
+    "SponsorId" :            "FFFFFFFFFFFFFFFF",
+    "TargetServerEntry" : "__TOKEN__"
+}
+```
+
+```
+echo './psiphon-tunnel-core-x86_64 -config client.own.conf' > run.client
+chmod 755 run.client
+./run.client
+```
+It will start Http proxy on local port 8081 and Socks proxy on port 1081. Test those proxies in another console.
+```
+curl -x localhost:8081 gmail.com -v 
+```
+That gave me 700KB/s speed.
+
+<< [Ubuntu: migrate from Ifupdown to Netplan. Step by step.](https://blog.tanatos.org/posts/ifupdown-netplan)
+
+'>> [Psiphon: setting up Linux client (with free servers)](https://blog.tanatos.org/posts/psiphon-free)
+
+| Rendered by [Hugo](https://gohugo.io) | [Subscribe](https://blog.tanatos.org/index.xml)
+
+## Psiphon: setting up Linux 🐧 client (with free servers)
+
+*Sep 5, 2020*
+>#ubuntu , #psiphon , #proxy
+
+*2 min read*
+
+Psiphon is obfuscated proxy, and its client & server are open-source.
+
+The plan is:
+
+- setting up Linux Psiphon Client that connects to free Psiphon network.
+
+```
+rm -rf ~/psiphon.client.free
+mkdir -p ~/psiphon.client.free
+cd ~/psiphon.client.to.free
+curl https://github.com/Psiphon-Labs/psiphon-tunnel-core-binaries/raw/master/linux/psiphon-tunnel-core-x86_64 -o psiphon-tunnel-core-x86_64
+chmod 755 psiphon-tunnel-core-x86_64
+vim client.free.conf
+```
+paste text below but replace `__TOKEN__` to the Token from step above.
+```
+{
+"LocalHttpProxyPort":8081,
+"LocalSocksProxyPort":1081,
+"PropagationChannelId":"FFFFFFFFFFFFFFFF",
+"RemoteServerListDownloadFilename":"remote_server_list",
+"RemoteServerListSignaturePublicKey":"MIICIDANBgkqhkiG9w0BAQEFAAOCAg0AMIICCAKCAgEAt7Ls+/39r+T6zNW7GiVpJfzq/xvL9SBH5rIFnk0RXYEYavax3WS6HOD35eTAqn8AniOwiH+DOkvgSKF2caqk/y1dfq47Pdymtwzp9ikpB1C5OfAysXzBiwVJlCdajBKvBZDerV1cMvRzCKvKwRmvDmHgphQQ7WfXIGbRbmmk6opMBh3roE42KcotLFtqp0RRwLtcBRNtCdsrVsjiI1Lqz/lH+T61sGjSjQ3CHMuZYSQJZo/KrvzgQXpkaCTdbObxHqb6/+i1qaVOfEsvjoiyzTxJADvSytVtcTjijhPEV6XskJVHE1Zgl+7rATr/pDQkw6DPCNBS1+Y6fy7GstZALQXwEDN/qhQI9kWkHijT8ns+i1vGg00Mk/6J75arLhqcodWsdeG/M/moWgqQAnlZAGVtJI1OgeF5fsPpXu4kctOfuZlGjVZXQNW34aOzm8r8S0eVZitPlbhcPiR4gT/aSMz/wd8lZlzZYsje/Jr8u/YtlwjjreZrGRmG8KMOzukV3lLmMppXFMvl4bxv6YFEmIuTsOhbLTwFgh7KYNjodLj/LsqRVfwz31PgWQFTEPICV7GCvgVlPRxnofqKSjgTWI4mxDhBpVcATvaoBl1L/6WLbFvBsoAUBItWwctO2xalKxF5szhGm8lccoc5MZr8kfE0uxMgsxz4er68iCID+rsCAQM=",
+"RemoteServerListUrl":"https://s3.amazonaws.com//psiphon/web/mjr4-p23r-puwl/server_list_compressed",
+"SponsorId":"FFFFFFFFFFFFFFFF",
+"UseIndistinguishableTLS":true
+}
+```
+
+```
+echo './psiphon-tunnel-core-x86_64 -config client.free.conf' > run.client
+chmod 755 run.client
+./run.client
+```
+It will start Http proxy on local port 8081 and Socks proxy on port 1081. Test those proxies in another console.
+```
+curl -x localhost:8081 gmail.com -v 
+```
+That gave me 150KB/s speed.
+
+### Solve the situation when you are already under DPI.
+
+As you can see in free client config, it downloads servers list from `RemoteServerListUrl`. Of course you can download it beforehand & point Psiphon client to some arbitrary Psiphon server . Get server tokens list:
+```
+cd ~/tmp/
+wget https://s3.amazonaws.com//psiphon/web/mjr4-p23r-puwl/server_list_compressed
+
+ printf "\x1f\x8b\x08\x00\x00\x00\x00\x00" |cat - server_list_compressed |gzip -dc | json_xs | grep '"data"' | awk -F\" '{print $4}' | sed "s@\\\n@\n\n\n\n@g"  > server_tokens.txt
+
+less server_tokens.txt
+```
+Each line is then a token. Use client config like this (`client.free_servers.1.conf `):
+
+(replace `__TOKEN__` to some token from the file `server_tokens.txt`)
+```
+{
+    "LocalHttpProxyPort" : 8081,
+    "LocalSocksProxyPort" : 1081,
+    "PropagationChannelId" : "FFFFFFFFFFFFFFFF",
+    "SponsorId" :            "FFFFFFFFFFFFFFFF",
+    "TargetServerEntry" : "__TOKEN__"
+}
+```
+
+```
+./psiphon-tunnel-core-x86_64 -config  client.free_servers.1.conf
+```
+
+<< [Psiphon: setting up own server & Linux client](https://blog.tanatos.org/posts/psiphon-own) | [Fighting against Passive OS Fingerprinting](https://blog.tanatos.org/posts/osfooler-ng)>>
+
+| Rendered by [Hugo](https://gohugo.io) | [Subscribe](https://blog.tanatos.org/index.xml)
+
+<br><br>
+
+# Appendices
+
+<br>
+
+## Documenting File Creation
+
+It's useful to record some information about how your file was created.
+
+- File creation date: 2022-03-08
+- File latest updated date: `r today('Asia/Shanghai')`
+- `r R.version.string`
+- [**rmarkdown**](https://github.com/rstudio/rmarkdown) package version: `r packageVersion('rmarkdown')`
+- File version: 0.2.1
+- Author Profile: [®γσ, ξηg Lιαη Ημ](https://rpubs.com/englianhu/ryo-eng)
+- GitHub: [Source Code](https://github.com/scibrokes/owner)
+- Additional session information
+
+```{r info, warning=FALSE, error=TRUE, results='asis'}
+suppressMessages(require('formattable', quietly = TRUE))
+suppressMessages(require('knitr', quietly = TRUE))
+suppressMessages(require('kableExtra', quietly = TRUE))
+suppressMessages(require('magittr', quietly = TRUE))
+suppressMessages(require('devtools', quietly = TRUE))
+
+sys1 <- session_info()$platform |> 
+    unlist() |> 
+    {\(.) data.frame(row.names = seq_along(.), 
+                     Category = names(.), session_info = .)}()
+
+sys2 <- data.frame(Sys.info()) |> 
+    {\(.) data.frame(Category = row.names(.), Sys.info = .[,1])}()
+
+#remarks, dim(sys1), dim(sys2)
+if (nrow(sys1) == 11 & nrow(sys2) == 8) {
+  sys2 <- sys2 |> 
+    {\(.) rbind(., data.frame(
+    Category = c('rmarkdown', 'rsconnect', 'Current time'), 
+    Sys.info = c(as.character(getwd()), 
+                 as.character(packageVersion('rsconnect')), 
+                 paste(as.character(lubridate::now('Asia/Shanghai')), 'CST 🗺️'))))}()
+  
+} else if (nrow(sys1) == 10 & nrow(sys2) == 8) {
+  sys1 <- rbind(sys1, data.frame(Category = '', session_info = ''))
+  
+  sys2 <- sys2 |> 
+    {\(.) rbind(., data.frame(
+    Category = c('rmarkdown', 'rsconnect', 'Current time'), 
+    Sys.info = c(as.character(getwd()), 
+                 as.character(packageVersion('rsconnect')), 
+                 paste(as.character(lubridate::now('Asia/Shanghai')), 'CST 🗺️'))))}()
+}
+
+sys <- cbind(sys1, sys2) |> 
+  {\(.) 
+    kbl(., caption = 'Additional session information:')}() |> 
+  {\(.) 
+    kable_styling(., bootstrap_options = c('striped', 'hover', 'condensed', 'responsive'))}() |> 
+  {\(.) 
+    row_spec(., 0, background = 'DimGrey', color = 'yellow')}() |> 
+  {\(.) 
+    column_spec(., 1, background = 'CornflowerBlue', color = 'red')}() |> 
+  {\(.) 
+    column_spec(., 2, background = 'grey', color = 'black')}() |> 
+  {\(.) 
+    column_spec(., 3, background = 'CornflowerBlue', color = 'blue')}() |> 
+  {\(.) 
+    column_spec(., 4, background = 'grey', color = 'white')}() |> 
+  {\(.) 
+    row_spec(., 11, bold = TRUE, color = 'yellow', background = '#D7261E')}()
+
+rm(sys1, sys2)
+sys
+```
+
+<br><br>
+
+## References
+
+- You are feel free to create your own CV by R Markdown V2 by refer to [Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)
+- [prettydoc](http://yixuan.cos.name/prettydoc)
+- [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)
+- You can plot a [timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date) graph or load the [timeline](http://jason.bryer.org/timeline) package.
+- Here I apply [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html) package to plot the animated graph. You are feel free to browse over the [vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf) for more examples.
+- You can also modify the layout of website by referring [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#).
+- There are a lot of diversified symbols I get from [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
+- [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
+- [`echarts4r`](https://echarts4r.john-coene.com) ® package.
+- [`sass`](https://rstudio.github.io/sass) ® package.
+
+<br><br>
+
+------------------------------------------------------------------------
+
+[**Powered by - Copyright® Intellectual Property Rights of [<img src="www/Scibrokes.png" width="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)個人の経営企業**]{style="color:RoyalBlue"}
+

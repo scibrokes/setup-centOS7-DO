@@ -62,12 +62,15 @@ micro /etc/sudoers  ## 或者 vim /etc/sudoers
 ```
 # User privilege specification
 # Ubuntu20.04 解释变量 https://unix.stackexchange.com/a/201866/128388
-root            ALL=(ALL:ALL) ALL
-englianhu       ALL=(ALL:ALL) ALL               \\添加这一行
+root        ALL=(ALL:ALL) ALL
+englianhu   ALL=(ALL:ALL) ALL               \\添加这一行
 
 ## Same thing without a password
-%wheel          ALL=(ALL)   NOPASSWD: ALL
-englianhu       ALL=(ALL)   NOPASSWD: ALL       \\添加这一行
+%wheel      ALL=(ALL)   NOPASSWD: ALL
+englianhu   ALL=(ALL)   NOPASSWD: ALL       \\添加这一行
+
+## Allow members of group sudo to execute any command
+%sudo       ALL=(ALL)   NOPASSWD: ALL       \\添加这一行
 ```
 
 
