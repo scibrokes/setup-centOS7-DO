@@ -1,9 +1,3 @@
----
-output: 
-  html_document: 
-    toc_depth: 10
-    number_sections: yes
----
 
 # Setup Own Server via Digital Ocean
 
