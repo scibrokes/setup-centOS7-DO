@@ -1,21 +1,22 @@
 ---
-title: "<img src='figure/deriv.jpg' width='240'>"
-subtitle: "[<span style='color:#DE5D83; background-color:black;'>Psiphon</span> : setting up own server & Linux 🐧 client (with free servers)<span style='color:#4E79A7'>**Review (Part III)**</span>](https://github.com/englianhu/binary.com-interview-question)"
+title: "<img src='figure/Psiphon-logo.png' width='60'>"
+subtitle: "Psiphon : setting up own server & Linux 🐧 client (with free servers)"
 author: "[®γσ, Lian Hu](https://englianhu.github.io) <img src='figure/ENG.jpg'
   width='24' align='center' valign='middle'> <img src='figure/quantitative trader 1.jpg'
   width='17' align='center' valign='middle'>® <img src='figure/K-Media.jpg' width='14'>"
 tags: [计量经济学, 量化圈, 娱乐圈, ®, Python, ®Studio]
 date: "`r lubridate::today('Asia/Tokyo')`"
-output:
-  html_document: 
+format:
+  html: 
+    theme: pandoc
     mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-    number_sections: yes
-    toc: yes
-    toc_depth: 10
-    toc_float:
-      collapsed: yes
-      smooth_scroll: yes
-    code_folding: hide
+    number-sections: true
+    toc: true
+    toc-depth: 10
+    toc-float:
+      collapsed: true
+      smooth-scroll: true
+    code-folding: hide
     css: CSSBackgrounds.css
 ---
 
@@ -279,6 +280,49 @@ Each line is then a token. Use client config like this (`client.free_servers.1.c
 
 <br><br>
 
+# VPN / Server Proxy
+
+- [Psiphon3](https://www.psiphon3.com) (Free of charges)
+
+    - [**GitHub**: Psiphon-Labs/psiphon-tunnel-core-binaries](https://github.com/Psiphon-Labs/psiphon-tunnel-core-binaries)
+    - [Psiphon: setting up Linux client (with free servers)](https://blog.tanatos.org/posts/psiphon-free)
+    - [Psiphon: setting up own server & Linux client](https://blog.tanatos.org/posts/psiphon-own)
+- [Ivacy VPN](https://www.ivacy.com/download-vpn/linux-vpn)
+- [SurfShark](https://surfshark.com/zh/download/linux)
+
+    - [SurfShark比较其它VPN](https://surfshark.com/zh/vpn)
+
+- [flyVPN](https://www.flyvpn.com/download/linux-vpn) (There provides free trail even though expired)
+
+    - https://community.rstudio.com/t/timeout-was-reached-api-github-com-resolving-timed-out-after-10000-milliseconds/131096/3?u=englianhu
+    
+- [FastVPN](https://fastvpn.com/linux)
+- [VPN Unlimited](https://www.vpnunlimited.com) (One-Time-Payment for long-life)
+- ...
+- ...
+
+Since Psiphon3 doesn't support Linux 🐧, here I tried some VPNs and found that flyVPN might useful.
+
+# Quarto
+
+```{r}
+#RStudio.Version()
+rstudioapi::versionInfo()
+```
+
+The RStudio version `r rstudioapi::versionInfo()$version` has introduce [Quarto](https://quarto.org) which is more powerful.
+
+Tried to render this article and noticed that Quarto more advanced the existing markdown as I know from the `CSSBackgrounds.css`.
+
+The output of the modificatioin preview instantly upon save changed of source file.
+
+https://i.imgur.com/CsYFPdL.mp4
+
+- https://github.com/englianhu/quarto_blog
+- https://github.com/englianhu/quarto_website
+- https://github.com/englianhu/hugo_blog
+- https://github.com/englianhu/rmarkdown_website
+
 # Appendices
 
 <br>
@@ -357,20 +401,12 @@ sys
 
 ## References
 
-- You are feel free to create your own CV by R Markdown V2 by refer to [Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)
-- [prettydoc](http://yixuan.cos.name/prettydoc)
-- [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)
-- You can plot a [timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date) graph or load the [timeline](http://jason.bryer.org/timeline) package.
-- Here I apply [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html) package to plot the animated graph. You are feel free to browse over the [vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf) for more examples.
-- You can also modify the layout of website by referring [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#).
-- There are a lot of diversified symbols I get from [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
-- [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
-- [`echarts4r`](https://echarts4r.john-coene.com) ® package.
-- [`sass`](https://rstudio.github.io/sass) ® package.
+- [Pavel Piatruk’ tech & personal blog](https://blog.tanatos.org)
+- [Quarto](https://quarto.org)
 
 <br><br>
 
 ------------------------------------------------------------------------
 
-[**Powered by - Copyright® Intellectual Property Rights of [<img src="www/Scibrokes.png" width="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)個人の経営企業**]{style="color:RoyalBlue"}
+[**Powered by - Copyright® Intellectual Property Rights of [<img src="figure/Scibrokes.png" width="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)個人の経営企業**]{style="color:RoyalBlue"}
 

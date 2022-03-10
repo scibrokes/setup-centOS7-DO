@@ -33,18 +33,24 @@ With continue to last [安装 ®StudioとShiny服务器](https://github.com/scib
 
 ### VPN / Server Proxy
 
-- [Psiphon3](https://www.psiphon3.com)
+- [Psiphon3](https://www.psiphon3.com) (Free of charges)
 
     - [**GitHub**: Psiphon-Labs/psiphon-tunnel-core-binaries](https://github.com/Psiphon-Labs/psiphon-tunnel-core-binaries)
     - [Psiphon: setting up Linux client (with free servers)](https://blog.tanatos.org/posts/psiphon-free)
     - [Psiphon: setting up own server & Linux client](https://blog.tanatos.org/posts/psiphon-own)
-- [Ivacy VPN](http://ivacy.com)
-- [SurfShark](https://surfshark.com)
-- [flyVPN](http://flyvpn.com)
-- [FastVPN](https://fastvpn.com)
-- [](https://www.vpnunlimited.com)
-...
-...
+- [Ivacy VPN](https://www.ivacy.com/download-vpn/linux-vpn)
+- [SurfShark](https://surfshark.com/zh/download/linux)
+
+    - [SurfShark比较其它VPN](https://surfshark.com/zh/vpn)
+
+- [flyVPN](https://www.flyvpn.com/download/linux-vpn) (There provides free trail even though expired)
+
+    - https://community.rstudio.com/t/timeout-was-reached-api-github-com-resolving-timed-out-after-10000-milliseconds/131096/3?u=englianhu
+    
+- [FastVPN](https://fastvpn.com/linux)
+- [VPN Unlimited](https://www.vpnunlimited.com) (One-Time-Payment for long-life)
+- ...
+- ...
 
 ---
 
