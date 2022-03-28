@@ -314,7 +314,7 @@ The RStudio version `r rstudioapi::versionInfo()$version` has introduce [Quarto]
 
 Tried to render this article and noticed that Quarto more advanced the existing markdown as I know from the `CSSBackgrounds.css`.
 
-The output of the modificatioin preview instantly upon save changed of source file.
+The output of the modification preview instantly upon save changed of source file.
 
 https://i.imgur.com/CsYFPdL.mp4
 
