@@ -1,7 +1,10 @@
-
 # Setup Own Server via Digital Ocean
 
-[![Jekyll site CI](https://github.com/scibrokes/setup-centOS7-DO/actions/workflows/jekyll.yml/badge.svg)](https://github.com/scibrokes/setup-centOS7-DO/actions/workflows/jekyll.yml)
+---
+
+[<img src='figure/RStudioCloud.png' height='20'>](https://rstudio.cloud) [<img src='figure/RStudioCom2.png' height='20'>](https://community.rstudio.com/new-topic?category=shiny&tags=shiny) [![](figure/shiny-badge.svg)](https://www.shinyapps.io) 
+
+<br>
 
 Setup RHEL/CentOS 7, Ubuntu Server
 
@@ -54,4 +57,5 @@ With continue to last [安装 ®StudioとShiny服务器](https://github.com/scib
 
 ---
 
-<span style='color:RoyalBlue'>**Powered by - Copyright® Intellectual Property Rights of [<img src="figure/Scibrokes.png" width="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com) 個人の経営企業**</span>
+[<img src="figure/Scibrokes.png" width="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
+<span style='color:RoyalBlue'>**[<img src="figure/Scibrokes.png" width="14"/> 世博量化®](http://www.scibrokes.com)企业知识产权及版权所有，盗版必究。**</span>
