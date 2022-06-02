@@ -18,11 +18,13 @@ With continue to last [安装 ®StudioとShiny服务器](https://github.com/scib
 - [Introduction to FirewallD on CentOS](https://www.linode.com/docs/security/firewalls/introduction-to-firewalld-on-centos)
 - [How To Install MongoDB On CentOS 7](http://www.unixmen.com/install-mongodb-centos-7)
 
-## Kubuntu KDE Plasma on Ubuntu
+## Kubuntu ⚙ KDE Plasma on Ubuntu
 
 - [How to get your very own RStudio Server and Shiny Server with DigitalOcean](https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean)
 - [Ubuntu Packages For R - Brief Instructions](https://cloud.r-project.org/bin/linux/ubuntu)
 - [🐧Linux操作系统必备应用](https://www.jianshu.com/p/5837b4fbec3c)
+
+Kubuntu ⚙ launch in-house laptop [<img src='figure/kubuntu-focus.png' height='12'>](https://kfocus.org/order).
 
 ### RStudio Desktop Pro / RStudio.Cloud
 
