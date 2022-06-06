@@ -40,11 +40,10 @@ Debian: 大便<br>
 - [Ubuntu Packages For R - Brief Instructions](https://cloud.r-project.org/bin/linux/ubuntu)
 - [🐧Linux操作系统必备应用](https://www.jianshu.com/p/5837b4fbec3c)
 
-
 <img src='figure/GI Joe -vs- Kublai Commander.png' width='480'>
 
-**®Studio GI Joe -vs- Kubuntu Kublai Commander**<br>
-**ᠬᠦᠪᠢᠯᠠᠢ**<br>
+**®Studio 🇺🇸 GI Joe -vs- Kubuntu 🇲🇳 <img src='figure/Asean.png' height='12'> Kublai Commander**<br>
+**®Studio 🇺🇸 GI Жо -vs- Kubuntu 🇲🇳 <img src='figure/Asean.png' height='12'> Хубилай командлагчч**<br>
 忽笨兔⚙ 推出自家研发的[<img src='figure/kubuntu-focus.png' height='12'>](https://kfocus.org/order)笔记本.
 
 **忽笨兔 - Cobra Commander西征欧非 东征刀伊入寇**
