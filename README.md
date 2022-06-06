@@ -1,4 +1,4 @@
-# Setup Own Server via Digital Ocean
+# 通过数码海洋（Digital Ocean）建立服务器
 
 ---
 
@@ -6,59 +6,109 @@
 
 <br>
 
-Setup RHEL/CentOS 7, Ubuntu Server
+建立小红帽/仙台七，优笨兔（RHEL/CentOS 7, Ubuntu）服务器
 
-## RHEL/centOS 7
+> 这是国内debian系统用户对它起的一个诙谐名称因为看起来很像拼音的“dabian”，实际发音是“de-bi-an”也就是德比安<br><br>
+debian，读豆瓣，一个 40 多岁的上海老码农告诉我的。<br><br>
+记得好多年前都是叫“友邦拓”的，后来慢慢的就变“乌班图”了，现在自己偶尔还是会念成“友邦拓”<br><br>
+Ubuntu: 有奔头<br>
+CentOS: 森托斯<br>
+Debian: 大便<br>
 
-With continue to last [安装 ®StudioとShiny服务器](https://github.com/scibrokes/setup-rstudio-server), here tried to share the database management in this article. You can create your own via [Digital Ocean](https://m.do.co/c/aabb124120d0)...
+- [debian读作大便是吗？](https://zhidao.baidu.com/question/495062361440509732.html)
+- [知乎：当你听到 Ubuntu 被读成 乌班图 是什么感觉？](https://www.zhihu.com/question/65835951)
+- [笨兔兔的故事——带你了解Ubuntu,了解Linux](https://www.linuxidc.com/Linux/2010-12/30786.htm)
+- [用了这么久的 ubuntu 才发现它读乌邦吐](https://www.v2ex.com/t/708836)
+- [笨兔兔的故事（上）](https://www.cnblogs.com/xiangzi888/archive/2011/09/18/2180200.html)
+- [大便(Debian)——很大，很方便？（四）—— 源，更新升级](https://www.cnblogs.com/soli/archive/2008/02/22/1077967.html)
 
-### Installation MongoDB and noSQL
+## 小红帽/仙台七（RHEL/CentOS 7）
+
+持续前篇[安装 ®StudioとShiny服务器](https://github.com/scibrokes/setup-rstudio-server)论及建立®艺术坊与闪霓服务器后，此章分享数据库管理，您可以通过[数码海洋（Digital Ocean）](https://m.do.co/c/aabb124120d0)建立服务器...
+
+### 安装蒙古数据库（MongoDB）和诺SQL（NOSQL）
 
 - [How To Set Up a Firewall Using FirewallD on CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-using-firewalld-on-centos-7)
 - [Introduction to FirewallD on CentOS](https://www.linode.com/docs/security/firewalls/introduction-to-firewalld-on-centos)
 - [How To Install MongoDB On CentOS 7](http://www.unixmen.com/install-mongodb-centos-7)
 
-## Kubuntu ⚙ KDE Plasma on Ubuntu
+<br><br>
+
+## 忽笨兔 ⚙ / 优笨兔上安装KDE核密度估计桌面（Kubuntu ⚙ / KDE Plasma on Ubuntu)
 
 - [How to get your very own RStudio Server and Shiny Server with DigitalOcean](https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean)
 - [Ubuntu Packages For R - Brief Instructions](https://cloud.r-project.org/bin/linux/ubuntu)
 - [🐧Linux操作系统必备应用](https://www.jianshu.com/p/5837b4fbec3c)
 
-Kubuntu ⚙ launch in-house laptop [<img src='figure/kubuntu-focus.png' height='12'>](https://kfocus.org/order).
 
-### RStudio Desktop Pro / RStudio.Cloud
+<img src='figure/GI Joe -vs- Kublai Commander.png' width='480'>
 
+**®Studio GI Joe -vs- Kubuntu Kublai Commander**<br>
+**ᠬᠦᠪᠢᠯᠠᠢ**<br>
+忽笨兔⚙ 推出自家研发的[<img src='figure/kubuntu-focus.png' height='12'>](https://kfocus.org/order)笔记本.
+
+**忽笨兔 - Cobra Commander西征欧非 东征刀伊入寇**
+
+<img src='figure/忽笨兔 - 西征欧非.png' width='480'>
+
+出处：[粉丝支持下🦘🥬 ：如果可以代言网游或角色扮演或演古装戏](https://t.bilibili.com/662421361693556742?spm_id_from=333.999.list.card_time.click)
+
+<img src='figure/β站021官网.png' width='480'>
+
+出处：[β站：网剧从零到一的爱情](https://space.bilibili.com/1622621563)
+
+**忽笨兔 - Cobra Commander西征欧非 东征刀伊入寇**
+
+<img src='figure/忽笨兔 - Cobra Commander西征欧非 东征刀伊入寇.png' width='480'>
+
+出处：[【活动作品】一带一路：经济西征之路 2022-5-21 04:20:13（【包青天插曲】腾格尔原创 - 梦随风飘🎼）](https://www.bilibili.com/video/BV1Vt4y1s7B3?spm_id_from=444.42.list.card_archive.click)
+
+### ®台式专业版艺术坊 / ®云端艺术坊（RStudio Desktop Pro / RStudio.Cloud）
+
+...<br>
 ...
+
+### 数据库管理（Database Management）
+
+...<br>
 ...
 
-### Database Management
+### 虚拟服务器 / 代理服务器（VPN / Proxy Server）
 
-...
-...
-
-### VPN / Server Proxy
-
-- [Psiphon3](https://www.psiphon3.com) (Free of charges)
+- [赛风三（Psiphon3）](https://www.psiphon3.com) (Free of charges)
 
     - [**GitHub**: Psiphon-Labs/psiphon-tunnel-core-binaries](https://github.com/Psiphon-Labs/psiphon-tunnel-core-binaries)
     - [Psiphon: setting up Linux client (with free servers)](https://blog.tanatos.org/posts/psiphon-free)
     - [Psiphon: setting up own server & Linux client](https://blog.tanatos.org/posts/psiphon-own)
-- [Ivacy VPN](https://www.ivacy.com/download-vpn/linux-vpn)
-- [SurfShark](https://surfshark.com/zh/download/linux)
+- [隙缝VPN（Ivacy VPN）](https://www.ivacy.com/download-vpn/linux-vpn)
+- [滑鲨（SurfShark）](https://surfshark.com/zh/download/linux)
 
     - [SurfShark比较其它VPN](https://surfshark.com/zh/vpn)
 
-- [flyVPN](https://www.flyvpn.com/download/linux-vpn) (There provides free trail even though expired)
+- [飞跃VPN（flyVPN）](https://www.flyvpn.com/download/linux-vpn) （逾期日用三回，如同星爷济公下凡尘 Daily 3 times free although free trail expired）
 
     - https://community.rstudio.com/t/timeout-was-reached-api-github-com-resolving-timed-out-after-10000-milliseconds/131096/3?u=englianhu
     
-- [FastVPN](https://fastvpn.com/linux)
-- [VPN Unlimited](https://www.vpnunlimited.com) (One-Time-Payment for long-life)
+- [极速VPN（FastVPN）](https://fastvpn.com/linux)
+- [无穷VPN（VPN Unlimited）](https://www.vpnunlimited.com) （一次付费，终生受用，如同彩礼 One-Time-Payment for long-life）
 - ...
 - ...
+
+<br><br>
+
+## ®阿帕奇（Rapache）
+
+> Rapache is a project dedicated to embedding the R interpreter inside the Apache 2.0 (and beyond) web server.
+
+```{r}
+:~$ sudo apt-get install libapache2-mod-r-base
+```
+
+®阿帕奇将®编程语言（编译器/解译器）技术，嵌入到阿帕奇2.0（或>=2.0版本）网页服务器。
+
+欲知更多详情，请查阅[](https://jeffreyhorner.github.io/rapache/downloads.html)。
 
 ---
-
 
 [<img src="figure/Scibrokes.png" height="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
 <span style='color:RoyalBlue'>**[<img src="figure/Scibrokes.png" height="14"/> 世博量化®](http://www.scibrokes.com)企业知识产权及版权所有，盗版必究。**</span>
