@@ -95,9 +95,29 @@ Debian: 大便<br>
 
 <br><br>
 
+## 微软蔚蓝云端☁服务器
+
+> The aim of `vstsr` is to make it easier to connect between R and Azure DevOps.
+
+```r
+:~$ sudo su - -c "R -e \"devtools::install_github('ashbaldry/vstsr')\""
+```
+
+欲知更多详情，请查阅[GitHub: ashbaldry/vstsr](https://github.com/ashbaldry/vstsr)。
+
+## VS编码器（VS Code）
+
+> R Extension for Visual Studio Code via `install.packages('languageserver')`.
+
+```r
+sudo su - -c "R -e \"install.packages(c('languageserver'), repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+```
+
+欲知更多详情，请查阅[GitHub: REditorSupport/vscode-R](https://github.com/REditorSupport/vscode-R)。
+
 ## ®阿帕奇（Rapache）
 
-> Rapache is a project dedicated to embedding the R interpreter inside the Apache 2.0 (and beyond) web server.
+> `rapache` is a project dedicated to embedding the R interpreter inside the Apache 2.0 (and beyond) web server.
 
 ```{r}
 :~$ sudo apt-get install libapache2-mod-r-base
@@ -105,7 +125,9 @@ Debian: 大便<br>
 
 ®阿帕奇将®编程语言（编译器/解译器）技术，嵌入到阿帕奇2.0（或>=2.0版本）网页服务器。
 
-欲知更多详情，请查阅[](https://jeffreyhorner.github.io/rapache/downloads.html)。
+欲知更多详情，请查阅[jeffreyhorner.github.io/rapache](https://jeffreyhorner.github.io/rapache/downloads.html)。
+
+<br><br>
 
 ---
 
