@@ -6,7 +6,7 @@
 
 <br>
 
-建立小红帽/仙台七，优笨兔（RHEL/CentOS 7, Ubuntu）服务器
+建立小红帽/仙台七，优奔兔（RHEL/CentOS 7, Ubuntu）服务器
 
 > 这是国内debian系统用户对它起的一个诙谐名称因为看起来很像拼音的“dabian”，实际发音是“de-bi-an”也就是德比安<br><br>
 debian，读豆瓣，一个 40 多岁的上海老码农告诉我的。<br><br>
@@ -34,7 +34,7 @@ Debian: 大便<br>
 
 <br><br>
 
-## 忽笨兔 ⚙ / 优笨兔上安装KDE核密度估计桌面（Kubuntu ⚙ / KDE Plasma on Ubuntu)
+## 忽奔兔 ⚙ / 优奔兔上安装KDE核密度估计桌面（Kubuntu ⚙ / KDE Plasma on Ubuntu)
 
 - [How to get your very own RStudio Server and Shiny Server with DigitalOcean](https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean)
 - [Ubuntu Packages For R - Brief Instructions](https://cloud.r-project.org/bin/linux/ubuntu)
@@ -44,11 +44,11 @@ Debian: 大便<br>
 
 **®Studio 🇺🇸 GI Joe -vs- Kubuntu 🇲🇳 <img src='figure/Asean.png' height='12'> Kublai Commander**<br>
 **®Studio 🇺🇸 GI Жо -vs- Kubuntu 🇲🇳 <img src='figure/Asean.png' height='12'> Хубилай командлагчч**<br>
-忽笨兔⚙ 推出自家研发的[<img src='figure/kubuntu-focus.png' height='12'>](https://kfocus.org/order)笔记本.
+忽奔兔⚙ 推出自家研发的[<img src='figure/kubuntu-focus.png' height='12'>](https://kfocus.org/order)笔记本.
 
-**忽笨兔 - Cobra Commander西征欧非 东征刀伊入寇**
+**忽奔兔 - Cobra Commander西征欧非 东征刀伊入寇**
 
-<img src='figure/忽笨兔 - 西征欧非.png' width='480'>
+<img src='figure/忽奔兔 - 西征欧非.png' width='480'>
 
 出处：[粉丝支持下🦘🥬 ：如果可以代言网游或角色扮演或演古装戏](https://t.bilibili.com/662421361693556742?spm_id_from=333.999.list.card_time.click)
 
@@ -56,9 +56,9 @@ Debian: 大便<br>
 
 出处：[β站：网剧从零到一的爱情](https://space.bilibili.com/1622621563)
 
-**忽笨兔 - Cobra Commander西征欧非 东征刀伊入寇**
+**忽奔兔 - Cobra Commander西征欧非 东征刀伊入寇**
 
-<img src='figure/忽笨兔 - Cobra Commander西征欧非 东征刀伊入寇.png' width='480'>
+<img src='figure/忽奔兔 - Cobra Commander西征欧非 东征刀伊入寇.png' width='480'>
 
 出处：[【活动作品】一带一路：经济西征之路 2022-5-21 04:20:13（【包青天插曲】腾格尔原创 - 梦随风飘🎼）](https://www.bilibili.com/video/BV1Vt4y1s7B3?spm_id_from=444.42.list.card_archive.click)
 
