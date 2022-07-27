@@ -6,7 +6,7 @@
 
 <br>
 
-建立小红帽/✡仙台七，优奔兔（RHEL/✡CentOS 7, Ubuntu）服务器
+建立👒小红帽/🔯仙台七，优奔兔（👒RHEL/🔯CentOS 7, Ubuntu）服务器
 
 > 这是国内debian系统用户对它起的一个诙谐名称因为看起来很像拼音的“dabian”，实际发音是“de-bi-an”也就是德比安<br><br>
 debian，读豆瓣，一个 40 多岁的上海老码农告诉我的。<br><br>
@@ -22,7 +22,7 @@ Debian: 大便<br>
 - [笨兔兔的故事（上）](https://www.cnblogs.com/xiangzi888/archive/2011/09/18/2180200.html)
 - [大便(Debian)——很大，很方便？（四）—— 源，更新升级](https://www.cnblogs.com/soli/archive/2008/02/22/1077967.html)
 
-## 小红帽/仙台七（RHEL/CentOS 7）
+## 👒小红帽/🔯仙台七（👒RHEL/🔯CentOS 7）
 
 持续前篇[安装 ®StudioとShiny服务器](https://github.com/scibrokes/setup-rstudio-server)论及建立®艺术坊与闪霓服务器后，此章分享数据库管理，您可以通过[数码海洋（Digital Ocean）](https://m.do.co/c/aabb124120d0)建立服务器...
 
@@ -46,7 +46,7 @@ Debian: 大便<br>
 **®Studio 🇺🇸 GI Жо -vs- Kubuntu 🇲🇳 <img src='figure/Asean.png' height='12'> Хубилай командлагчч**<br>
 忽奔兔⚙ 推出自家研发的[<img src='figure/kubuntu-focus.png' height='12'>](https://kfocus.org/order)笔记本.
 
-**忽奔兔 - Cobra Commander西征欧非 东征刀伊入寇**
+**忽奔兔 - Cobra Commander西征欧非 东征刀🔯伊入寇**
 
 <img src='figure/忽奔兔 - 西征欧非.png' width='480'>
 
@@ -56,7 +56,7 @@ Debian: 大便<br>
 
 出处：[β站：网剧从零到一的爱情](https://space.bilibili.com/1622621563)
 
-**忽奔兔 - Cobra Commander西征欧非 东征刀伊入寇**
+**忽奔兔 - Cobra Commander西征欧非 东征刀🔯伊入寇**
 
 <img src='figure/忽奔兔 - Cobra Commander西征欧非 东征刀伊入寇.png' width='480'>
 
