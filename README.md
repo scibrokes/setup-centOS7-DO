@@ -6,7 +6,7 @@
 
 <br>
 
-建立小红帽/仙台七，优奔兔（RHEL/CentOS 7, Ubuntu）服务器
+建立小红帽/✡仙台七，优奔兔（RHEL/✡CentOS 7, Ubuntu）服务器
 
 > 这是国内debian系统用户对它起的一个诙谐名称因为看起来很像拼音的“dabian”，实际发音是“de-bi-an”也就是德比安<br><br>
 debian，读豆瓣，一个 40 多岁的上海老码农告诉我的。<br><br>
