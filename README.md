@@ -137,6 +137,9 @@ sudo su - -c "R -e \"install.packages(c('languageserver'), repos='https://cran.r
 
 🚩🇬🇧🏹Red Cross ✝️Army RedFlag Linux 🚩🇨🇳✝️🏹红旗中科
 
+- [红旗礼逆袭（官网）](https://www.chinaredflag.cn)
+- [红旗应用商店（官网）](http://www.linuxsir.cn)
+
 ---
 
 [<img src="figure/Scibrokes.png" height="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
