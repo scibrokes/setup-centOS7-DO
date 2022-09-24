@@ -140,6 +140,11 @@ sudo su - -c "R -e \"install.packages(c('languageserver'), repos='https://cran.r
 - [红旗礼逆袭（官网）](https://www.chinaredflag.cn)
 - [红旗应用商店（官网）](http://www.linuxsir.cn)
 
+![](https://user-images.githubusercontent.com/7227582/187244786-aeaf938f-2f26-4711-84ca-123f3c2d5de8.gif)
+
+- [🚩红旗飘飘 —— 孙玉芳研究员谈国产操作系统](https://xuewen.cnki.net/CJFD-WDNJ199941001.html)
+- [🚩Administration of User Account in Secure OS](http://journal.ucas.ac.cn/CN/abstract/abstract11932.shtml)
+
 ---
 
 [<img src="figure/Scibrokes.png" height="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
