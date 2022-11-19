@@ -144,7 +144,7 @@ sudo su - -c "R -e \"install.packages(c('languageserver'), repos='https://cran.r
 
 - [🚩红旗飘飘 —— 孙玉芳研究员谈国产操作系统](https://xuewen.cnki.net/CJFD-WDNJ199941001.html)
 - [🚩Administration of User Account in Secure OS](http://journal.ucas.ac.cn/CN/abstract/abstract11932.shtml)
-- [🚩](https://view.inews.qq.com/k/20220425A01UQS00?web_channel=wap&openApp=false&f=newdc)
+- [🚩中科院创业往事：作业、基业与功业](https://view.inews.qq.com/k/20220425A01UQS00?web_channel=wap&openApp=false&f=newdc)
 
 ---
 
