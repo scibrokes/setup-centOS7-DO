@@ -120,7 +120,7 @@ sudo su - -c "R -e \"install.packages(c('languageserver'), repos='https://cran.r
 > `rapache` is a project dedicated to embedding the R interpreter inside the Apache 2.0 (and beyond) web server.
 
 ```{r}
-:~$ sudo apt-get install libapache2-mod-r-base
+:~$ sudo apt install -y libapache2-mod-r-base
 ```
 
 ®阿帕奇将®编程语言（编译器/解译器）技术，嵌入到阿帕奇2.0（或>=2.0版本）网页服务器。
