@@ -2,7 +2,7 @@
 
 ---
 
-[<img src='figure/RStudioCloud.png' height='20'>](https://rstudio.cloud) [<img src='figure/RStudioCom2.png' height='20'>](https://community.rstudio.com/new-topic?category=shiny&tags=shiny) [![](figure/shiny-badge.svg)](https://www.shinyapps.io) 
+[<img src='文艺坊图库/RStudioCloud.png' height='20'>](https://rstudio.cloud) [<img src='文艺坊图库/RStudioCom2.png' height='20'>](https://community.rstudio.com/new-topic?category=shiny&tags=shiny) [![](文艺坊图库/shiny-badge.svg)](https://www.shinyapps.io) 
 
 <br>
 
@@ -40,25 +40,25 @@ Debian: 大便<br>
 - [Ubuntu Packages For R - Brief Instructions](https://cloud.r-project.org/bin/linux/ubuntu)
 - [🐧Linux操作系统必备应用](https://www.jianshu.com/p/5837b4fbec3c)
 
-<img src='figure/GI Joe -vs- Kublai Commander.png' width='480'>
+<img src='文艺坊图库/GI Joe -vs- Kublai Commander.png' width='480'>
 
-**®Studio 🇺🇸 GI Joe -vs- Kubuntu 🇲🇳 <img src='figure/Asean.png' height='12'> Kublai Commander**<br>
-**®Studio 🇺🇸 GI Жо -vs- Kubuntu 🇲🇳 <img src='figure/Asean.png' height='12'> Хубилай командлагчч**<br>
-忽奔兔⚙ 推出自家研发的[<img src='figure/kubuntu-focus.png' height='12'>](https://kfocus.org/order)笔记本.
+**®Studio 🇺🇸 GI Joe -vs- Kubuntu 🇲🇳 <img src='文艺坊图库/Asean.png' height='12'> Kublai Commander**<br>
+**®Studio 🇺🇸 GI Жо -vs- Kubuntu 🇲🇳 <img src='文艺坊图库/Asean.png' height='12'> Хубилай командлагчч**<br>
+忽奔兔⚙ 推出自家研发的[<img src='文艺坊图库/kubuntu-focus.png' height='12'>](https://kfocus.org/order)笔记本.
 
 **忽奔兔 - Cobra Commander西征欧非 东征刀🔯伊入寇**
 
-<img src='figure/忽奔兔 - 西征欧非.png' width='480'>
+<img src='文艺坊图库/忽奔兔 - 西征欧非.png' width='480'>
 
 出处：[粉丝支持下🦘🥬 ：如果可以代言网游或角色扮演或演古装戏](https://t.bilibili.com/662421361693556742?spm_id_from=333.999.list.card_time.click)
 
-<img src='figure/β站021官网.png' width='480'>
+<img src='文艺坊图库/β站021官网.png' width='480'>
 
 出处：[β站：网剧从零到一的爱情](https://space.bilibili.com/1622621563)
 
 **忽奔兔 - Cobra Commander西征欧非 东征刀🔯伊入寇**
 
-<img src='figure/忽奔兔 - Cobra Commander西征欧非 东征刀伊入寇.png' width='480'>
+<img src='文艺坊图库/忽奔兔 - Cobra Commander西征欧非 东征刀伊入寇.png' width='480'>
 
 出处：[【活动作品】一带一路：经济西征之路 2022-5-21 04:20:13（【包青天插曲】腾格尔原创 - 梦随风飘🎼）](https://www.bilibili.com/video/BV1Vt4y1s7B3?spm_id_from=444.42.list.card_archive.click)
 
@@ -131,7 +131,7 @@ sudo su - -c "R -e \"install.packages(c('languageserver'), repos='https://cran.r
 
 # 🚩🇨🇳✝️🏹红旗礼逆袭（RedFlag Linux）
 
-![](https://github.com/scibrokes/setup-centOS7-DO/blob/%E4%B8%96%E5%8D%9A%E9%87%8F%E5%8C%96%E7%A0%94%E7%A9%B6%E9%99%A2/figure/08-25-13-66980.jpg?raw=true)
+![](https://github.com/scibrokes/setup-centOS7-DO/blob/%E4%B8%96%E5%8D%9A%E9%87%8F%E5%8C%96%E7%A0%94%E7%A9%B6%E9%99%A2/文艺坊图库/08-25-13-66980.jpg?raw=true)
 
 🚩🇨🇳✝️🏹红旗中科是🇨🇳国产第一个以🍥德比安/🍥达比安操作系统改良版的🚩🇨🇳✝️🏹红旗礼逆袭。而创办人NonMuslim孙玉芳、艺人NonMuslim蔡卓宜、本人NonMuslim黄联富都是🇨🇳北京大学校友。
 
@@ -148,5 +148,5 @@ sudo su - -c "R -e \"install.packages(c('languageserver'), repos='https://cran.r
 
 ---
 
-[<img src="figure/Scibrokes.png" height="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
-<span style='color:RoyalBlue'>**[<img src="figure/Scibrokes.png" height="14"/> 世博量化®](http://www.scibrokes.com)企业知识产权及版权所有，盗版必究。**</span>
+[<img src="文艺坊图库/Scibrokes.png" height="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
+<span style='color:RoyalBlue'>**[<img src="文艺坊图库/Scibrokes.png" height="14"/> 世博量化®](http://www.scibrokes.com)企业知识产权及版权所有，盗版必究。**</span>
