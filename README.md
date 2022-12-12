@@ -131,7 +131,7 @@ sudo su - -c "R -e \"install.packages(c('languageserver'), repos='https://cran.r
 
 # 🚩🇨🇳✝️🏹红旗礼逆袭（RedFlag Linux）
 
-![](文艺坊图库/红旗中科，量化对冲，RStudioCloud，英国基督洋妞儿芈拉.png)
+<img src="文艺坊图库/红旗中科，量化对冲，RStudioCloud，英国基督洋妞儿芈拉.png" width="742"/>
 
 🚩🇨🇳✝️🏹红旗中科是🇨🇳国产第一个以🍥德比安/🍥达比安操作系统改良版的🚩🇨🇳✝️🏹红旗礼逆袭。而创办人NonMuslim孙玉芳、艺人NonMuslim蔡卓宜、本人NonMuslim黄联富都是🇨🇳北京大学校友。
 
@@ -140,7 +140,7 @@ sudo su - -c "R -e \"install.packages(c('languageserver'), repos='https://cran.r
 - [红旗礼逆袭（官网）](https://www.chinaredflag.cn)
 - [红旗应用商店（官网）](http://www.linuxsir.cn)
 
-![](https://user-images.githubusercontent.com/7227582/187244786-aeaf938f-2f26-4711-84ca-123f3c2d5de8.gif)
+![](文艺坊图库/红旗礼逆袭.gif)
 
 - [🚩红旗飘飘 —— 孙玉芳研究员谈国产操作系统](https://xuewen.cnki.net/CJFD-WDNJ199941001.html)
 - [🚩Administration of User Account in Secure OS](http://journal.ucas.ac.cn/CN/abstract/abstract11932.shtml)
