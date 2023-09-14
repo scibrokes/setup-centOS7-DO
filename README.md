@@ -131,7 +131,7 @@ sudo su - -c "R -e \"install.packages(c('languageserver'), repos='https://cran.r
 
 # 🚩🇨🇳🏹红旗礼逆袭（RedFlag Linux）
 
-<img src="[文艺坊图库/红旗中科，量化对冲，RStudioCloud，英国基督洋妞儿芈拉.png](https://github.com/scibrokes/setup-centOS7-DO/assets/7227582/fc5475f3-56ee-4044-828f-b5cc58565858)" width="742"/>
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/7227582/268127925-fc5475f3-56ee-4044-828f-b5cc58565858.png" width="742"/>
 
 🚩🇨🇳🏹红旗中科是🇨🇳国产第一个以🍥德比安/🍥达比安操作系统改良版的🚩🇨🇳🏹红旗礼逆袭。而创办人孙玉芳教授和愚生（☯赢家黄氏江夏堂/永春堂）黄联富都是🇨🇳北京大学校友。
 🚩🇨🇳🏹红旗中科
