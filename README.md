@@ -2,14 +2,10 @@
 
 ---
 
-[<img src='文艺坊图库/RStudioCloud.png' height='20'>](https://rstudio.cloud) [<img src='文艺坊图库/RStudioCom2.png' height='20'>](https://community.rstudio.com/new-topic?category=shiny&tags=shiny) [![](文艺坊图库/shiny-badge.svg)](https://www.shinyapps.io) 
-
-<br>
-
 建立👒小红帽/🔯仙台七，优奔兔（👒RHEL/🔯CentOS 7, Ubuntu）服务器
 
 > 这是国内debian系统用户对它起的一个诙谐名称因为看起来很像拼音的“dabian”，实际发音是“de-bi-an”也就是德比安<br><br>
-debian，读豆瓣，一个 40 多岁的上海老码农告诉我的。<br><br>
+debian，读豆瓣，一个卌多岁的上海老码农告诉我的。<br><br>
 记得好多年前都是叫“友邦拓”的，后来慢慢的就变“乌班图”了，现在自己偶尔还是会念成“友邦拓”<br><br>
 Ubuntu: 有奔头<br>
 CentOS: 森托斯<br>
@@ -40,25 +36,25 @@ Debian: 大便<br>
 - [Ubuntu Packages For R - Brief Instructions](https://cloud.r-project.org/bin/linux/ubuntu)
 - [🐧Linux操作系统必备应用](https://www.jianshu.com/p/5837b4fbec3c)
 
-<img src='文艺坊图库/GI Joe -vs- Kublai Commander.png' width='480'>
+<img src='诸子百家考工记/GI Joe -vs- Kublai Commander.png' width='480'>
 
-**®Studio 🇺🇸 GI Joe -vs- Kubuntu 🇲🇳 <img src='文艺坊图库/Asean.png' height='12'> Kublai Commander**<br>
-**®Studio 🇺🇸 GI Жо -vs- Kubuntu 🇲🇳 <img src='文艺坊图库/Asean.png' height='12'> Хубилай командлагчч**<br>
-忽奔兔⚙ 推出自家研发的[<img src='文艺坊图库/kubuntu-focus.png' height='12'>](https://kfocus.org/order)笔记本.
+**®Studio 🇺🇸 GI Joe -vs- Kubuntu 🇲🇳 <img src='诸子百家考工记/Asean.png' height='12'> Kublai Commander**<br>
+**®Studio 🇺🇸 GI Жо -vs- Kubuntu 🇲🇳 <img src='诸子百家考工记/Asean.png' height='12'> Хубилай командлагчч**<br>
+忽奔兔⚙ 推出自家研发的[<img src='诸子百家考工记/kubuntu-focus.png' height='12'>](https://kfocus.org/order)笔记本.
 
 **忽奔兔 - Cobra Commander西征欧非 东征刀🔯伊入寇**
 
-<img src='文艺坊图库/忽奔兔 - 西征欧非.png' width='480'>
+<img src='诸子百家考工记/忽奔兔 - 西征欧非.png' width='480'>
 
 出处：[粉丝支持下🦘🥬 ：如果可以代言网游或角色扮演或演古装戏](https://t.bilibili.com/662421361693556742?spm_id_from=333.999.list.card_time.click)
 
-<img src='文艺坊图库/β站021官网.png' width='480'>
+<img src='诸子百家考工记/β站021官网.png' width='480'>
 
 出处：[β站：网剧从零到一的爱情](https://space.bilibili.com/1622621563)
 
 **忽奔兔 - Cobra Commander西征欧非 东征刀🔯伊入寇**
 
-<img src='文艺坊图库/忽奔兔 - Cobra Commander西征欧非 东征刀伊入寇.png' width='480'>
+<img src='诸子百家考工记/忽奔兔 - Cobra Commander西征欧非 东征刀伊入寇.png' width='480'>
 
 出处：[【活动作品】一带一路：经济西征之路 2022-5-21 04:20:13（【包青天插曲】腾格尔原创 - 梦随风飘🎼）](https://www.bilibili.com/video/BV1Vt4y1s7B3?spm_id_from=444.42.list.card_archive.click)
 
@@ -139,7 +135,7 @@ sudo su - -c "R -e \"install.packages(c('languageserver'), repos='https://cran.r
 - [红旗礼逆袭（官网）](https://www.chinaredflag.cn)
 - [红旗应用商店（官网）](http://www.linuxsir.cn)
 
-![](文艺坊图库/红旗礼逆袭.gif)
+![](诸子百家考工记/红旗礼逆袭.gif)
 
 - [🚩红旗飘飘 —— 孙玉芳研究员谈国产操作系统](https://xuewen.cnki.net/CJFD-WDNJ199941001.html)
 - [🚩Administration of User Account in Secure OS](http://journal.ucas.ac.cn/CN/abstract/abstract11932.shtml)
@@ -149,5 +145,5 @@ sudo su - -c "R -e \"install.packages(c('languageserver'), repos='https://cran.r
 
 ---
 
-[<img src="文艺坊图库/Scibrokes.png" height="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
-<span style='color:RoyalBlue'>**[<img src="文艺坊图库/Scibrokes.png" height="14"/> 世博量化®](http://www.scibrokes.com)企业知识产权及版权所有，盗版必究。**</span>
+[<img src="诸子百家考工记/Scibrokes.png" height="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
+<span style='color:RoyalBlue'>**[<img src="诸子百家考工记/Scibrokes.png" height="14"/> 世博量化®](http://www.scibrokes.com)企业知识产权及版权所有，盗版必究。**</span>
