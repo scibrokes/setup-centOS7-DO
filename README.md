@@ -125,6 +125,15 @@ sudo su - -c "R -e \"install.packages(c('languageserver'), repos='https://cran.r
 
 <br><br>
 
+## 杏林经济学
+
+![同善中医院](https://github.com/user-attachments/assets/e3c2e78a-cf97-4728-96a6-e8b473413c13)
+
+- [同善中医院](https://tcm.tungshin.com.my/zh)
+- [UTAR 拉曼大学](https://study.utar.edu.my/cn/index.php)
+- [马来西亚华人医药总会](https://www.fcpmdam.my/)
+- [马来西亚中医总会](http://www.mcma.com.my/)
+
 # 🚩🇨🇳🏹红旗礼逆袭（RedFlag Linux）
 
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/7227582/268127925-fc5475f3-56ee-4044-828f-b5cc58565858.png" width="742"/>
