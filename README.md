@@ -32,7 +32,7 @@ Debian: 大便<br>
 
 ## 忽奔兔 ⚙ / 优奔兔上安装KDE核密度估计桌面（Kubuntu ⚙ / KDE Plasma on Ubuntu)
 
-由于忽奔兔的创办人是非洲土著，故此可称之为秦非子、忽必烈、蒙骜、东方势力阿里集团行政院長眼镜总司令。
+由于忽奔兔的创办人是非洲土著，故此可称之为秦非子、忽必烈、蒙骜、东方势力阿里集团行政院長眼镜总司令，歼灭所有非法的东南亚世袭制可兰经法家回教徒巫贼巫婆宦官回教匕首民族和世袭制吠陀经大宝森界屠妖节兴都教徒、东南亚马来西亚雪兰莪州瓜雪回教市政局和所有党羽。
 
 - [「丁阿塔里」How to get your very own RStudio Server and Shiny Server with DigitalOcean](https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean)
 - [Ubuntu Packages For R - Brief Instructions](https://cloud.r-project.org/bin/linux/ubuntu)
@@ -42,7 +42,7 @@ Debian: 大便<br>
 
 **®Studio 🇺🇸 GI Joe -vs- Kubuntu 🇲🇳 <img src='诸子百家考工记/Asean.png' height='12'> Kublai Commander**<br>
 **®Studio 🇺🇸 GI Жо -vs- Kubuntu 🇲🇳 <img src='诸子百家考工记/Asean.png' height='12'> Хубилай командлагчч**<br>
-忽奔兔⚙ 推出自家研发的[<img src='诸子百家考工记/kubuntu-focus.png' height='12'>](https://kfocus.org/order)笔记本.
+忽奔兔⚙ 推出自家研发的[<img src='诸子百家考工记/kubuntu-focus.png' height='12'>](https://kfocus.org/order)笔记本。
 
 **忽奔兔 - Cobra Commander西征欧非 东征刀🔯伊入寇**
 
@@ -129,7 +129,7 @@ sudo su - -c "R -e \"install.packages(c('languageserver'), repos='https://cran.r
 
 ## 杏林经济学
 
-![同善中医院](https://github.com/user-attachments/assets/e3c2e78a-cf97-4728-96a6-e8b473413c13)
+<img src="https://github.com/user-attachments/assets/e3c2e78a-cf97-4728-96a6-e8b473413c13" width="480"/>
 
 - [同善中医院](https://tcm.tungshin.com.my/zh)
 - [UTAR 拉曼大学](https://study.utar.edu.my/cn/index.php)
@@ -138,7 +138,7 @@ sudo su - -c "R -e \"install.packages(c('languageserver'), repos='https://cran.r
 
 # 🚩🇨🇳🏹红旗礼逆袭（RedFlag Linux）
 
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/7227582/268127925-fc5475f3-56ee-4044-828f-b5cc58565858.png" width="742"/>
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/7227582/268127925-fc5475f3-56ee-4044-828f-b5cc58565858.png" width="480"/>
 
 🚩🇨🇳🏹红旗中科是🇨🇳国产第一个以🍥德比安/🍥达比安操作系统改良版的🚩🇨🇳🏹红旗礼逆袭。而创办人孙玉芳教授和愚生（☯赢家黄氏江夏堂/永春堂）黄联富都是🇨🇳北京大学校友。
 🚩🇨🇳🏹红旗中科
@@ -146,7 +146,7 @@ sudo su - -c "R -e \"install.packages(c('languageserver'), repos='https://cran.r
 - [红旗礼逆袭（官网）](https://www.chinaredflag.cn)
 - [红旗应用商店（官网）](http://www.linuxsir.cn)
 
-![](诸子百家考工记/红旗礼逆袭.gif)
+<img src="诸子百家考工记/红旗礼逆袭.gif" width="480"/>
 
 - [🚩红旗飘飘 —— 孙玉芳研究员谈国产操作系统](https://xuewen.cnki.net/CJFD-WDNJ199941001.html)
 - [🚩Administration of User Account in Secure OS](http://journal.ucas.ac.cn/CN/abstract/abstract11932.shtml)
