@@ -32,9 +32,11 @@ Debian: 大便<br>
 
 ## 忽奔兔 ⚙ / 优奔兔上安装KDE核密度估计桌面（Kubuntu ⚙ / KDE Plasma on Ubuntu)
 
-- [How to get your very own RStudio Server and Shiny Server with DigitalOcean](https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean)
+由于忽奔兔的创办人是非洲土著，故此可称之为秦非子、忽必烈、蒙骜、东方势力阿里集团行政院長眼镜总司令。
+
+- [「丁阿塔里」How to get your very own RStudio Server and Shiny Server with DigitalOcean](https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean)
 - [Ubuntu Packages For R - Brief Instructions](https://cloud.r-project.org/bin/linux/ubuntu)
-- [🐧Linux操作系统必备应用](https://www.jianshu.com/p/5837b4fbec3c)
+- [「简书」🐧礼逆袭操作系统必备应用](https://www.jianshu.com/p/5837b4fbec3c)
 
 <img src='诸子百家考工记/GI Joe -vs- Kublai Commander.png' width='480'>
 
